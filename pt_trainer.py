@@ -297,7 +297,7 @@ def PrintException():
 how_far_to_look_back = 100000
 number_of_candles = [2]
 number_of_candles_index = 0
-def restart_program():
+def restarted_yet():
 	"""Restarts the current program, with file objects and descriptors cleanup"""
 
 	try:
